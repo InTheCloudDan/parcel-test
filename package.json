@@ -1,0 +1,21 @@
+{
+  "name": "parcel-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.js",
+    "build": "parcel build handler.ts --target=node --global handler -o index.js --bundle-node-modules --no-source-maps --detailed-report"
+  },
+  "dependencies": {
+    "launchdarkly-node-server-sdk": "^5.13.4"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "parcel-plugin-zip": "^1.0.6",
+    "typescript": "^4.0.2"
+  },
+  "alias": {
+    "logform": "logform/dist/browser"
+  }
+}
