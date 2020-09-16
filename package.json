@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel index.js",
-    "build": "parcel build handler.ts --target=node --global handler -o index.js --bundle-node-modules --no-source-maps --no-cache",
+    "build": "parcel build handler.ts --target=node --global handler -o index.js --bundle-node-modules --no-source-maps --no-cache"
   },
   "dependencies": {
     "launchdarkly-node-server-sdk": "^5.13.4"
